@@ -1,0 +1,46 @@
+{
+  "name": "{{name}}",
+  "version": "{{version}}",
+  "private": true,
+  "author": "{{author}}",
+  "description":"{{description}}",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "echarts": "^4.0.4",
+    "iview": "^3.1.0-rc.1",
+    "js-base64": "^2.4.8",
+    "js-cookie": "^2.2.0",
+    "nprogress": "^0.2.0",
+    "proj4": "^2.5.0",
+    "postcss-import": "^12.0.1",
+    "postcss-url": "^8.0.0",
+    "qs": "^6.5.1",
+    "url-search-params-polyfill": "^5.0.0",
+    "vue": "^2.5.21",
+    "vue-lazyload": "^1.2.6",
+    "vue-router": "^3.0.1",
+    "vue-touch": "^1.1.0",
+    "vue2-leaflet": "^1.2.3",
+    "vue2-leaflet-markercluster": "^2.1.2",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.2.0",
+    "@vue/cli-plugin-eslint": "^3.2.0",
+    "@vue/cli-service": "^3.2.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "vue-template-compiler": "^2.5.21"
+  }
+}

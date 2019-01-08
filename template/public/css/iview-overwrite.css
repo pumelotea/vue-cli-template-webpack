@@ -1,0 +1,33 @@
+/**
+iview 覆盖
+*/
+.picker-pumelo-style{
+  width: 180px;
+}
+.ivu-input  {
+  box-shadow: none !important;
+  border-radius: 2px !important;
+  background: transparent !important;
+  height: 30px !important;
+  border: 1px solid #2a6496 !important;
+  color: #4cb6cb !important;
+}
+.ivu-input-icon{
+  height: 30px !important;
+  line-height: 30px !important;
+}
+
+
+.demo-spin-icon-load{
+  animation: ani-demo-spin 1s linear infinite;
+}
+@keyframes ani-demo-spin {
+  from { transform: rotate(0deg);}
+  50%  { transform: rotate(180deg);}
+  to   { transform: rotate(360deg);}
+}
+.demo-spin-col{
+  height: 100px;
+  position: relative;
+  border: 1px solid #eee;
+}
