@@ -68,8 +68,14 @@ exports.runLintFix = function runLintFix(cwd, data, color) {
 exports.printMessage = function printMessage(data, { green, yellow }) {
   const message = `
 # ${green('Project initialization finished!')}
-# ${yellow('vue-cli 3.x is recommended')}
-# ====================================
+  ${green(' _____   _   _       ___  ___   _____   _       _____')}
+  ${green('|  _  \\\\| | | |     /   |/   | | ____| | |     /  _  \\\\')}
+  ${green('| |_| | | | | |    / /|   /| | | |__   | |     | | | |')}
+  ${green('|  ___/ | | | |   / / |__/ | | |  __|  | |     | | | |')}
+  ${green('| |     | |_| |  / /       | | | |___  | |___  | |_| |')}
+  ${green('|_|     \\\\_____//_/        |_| |_____| |_____| \\\\____/')}
+  ${yellow('vue-cli-template-webpack version: 1.0.0')}
+Template from Github https://github.com/pumelotea/vue-cli-template-webpack
 
 To get started:
 
@@ -79,7 +85,6 @@ To get started:
     )}${lintMsg(data)}yarn serve`
   )}
   
-Template from Github https://github.com/pumelotea/vue-cli-template-webpack
 `
   console.log(message)
 }
