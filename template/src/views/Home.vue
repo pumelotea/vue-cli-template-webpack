@@ -1,15 +1,16 @@
 <template>
-  <map-x />
+  <gaode-map></gaode-map>
 </template>
 
 <script>
-import MapX from '@/components/leaflet/Leaflet'
-export default {
-  components: {
-    MapX
-  },
-  mounted () {
-  },
-  methods: {}
-}
+  import MapX from '@/components/leaflet/Leaflet'
+  import GaodeMap from '@/components/gaode/Gaode'
+  export default {
+    components: {
+      MapX,GaodeMap
+    },
+    mounted () {
+    },
+    methods: {}
+  }
 </script>
