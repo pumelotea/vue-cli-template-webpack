@@ -74,7 +74,7 @@ exports.printMessage = function printMessage(data, { green, yellow }) {
   ${green('|  ___/ | | | |   / / |__/ | | |  __|  | |     | | | |')}
   ${green('| |     | |_| |  / /       | | | |___  | |___  | |_| |')}
   ${green('|_|     \\\\_____//_/        |_| |_____| |_____| \\\\____/')}
-  ${yellow('vue-cli-template-webpack version: 1.0.0')}
+  ${yellow('vue-cli-template-webpack version: 1.0.1')}
 Template from Github https://github.com/pumelotea/vue-cli-template-webpack
 
 To get started:
